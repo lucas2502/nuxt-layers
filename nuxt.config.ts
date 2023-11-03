@@ -4,15 +4,15 @@ import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 export default defineNuxtConfig({
   ssr: false,
 
-  extends: ["./ui"],
+  extends: ["./lib/ui"],
 
   build: {
     transpile: ["vuetify"],
   },
 
-  // dir: {
-  //   plugins: './lib/ui/plugin'
-  // },
+  dir: {
+    plugins: "./lib/ui/plugins",
+  },
 
   modules: [
     // "@nuxtjs/storybook",

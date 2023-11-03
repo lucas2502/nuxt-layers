@@ -4,7 +4,7 @@ const { myLayer } = useAppConfig();
 
 <template>
   <div>
-    <h1>Hello World!</h1>
+    <h1>PMESP PORTAL</h1>
     <pre>{{ myLayer }}</pre>
   </div>
 </template>
