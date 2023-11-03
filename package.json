@@ -6,11 +6,13 @@
   "scripts": {
     "dev:admin-portal": "nuxi dev app/admin-portal",
     "dev:portal": "nuxi dev app/portal",
-    "build": "nuxt build .playground",
-    "generate": "nuxt generate .playground",
-    "preview": "nuxt preview .playground",
+    "build:portal": "nuxt build app/portal",
+    "generate:admin-portal": "nuxt generate app/admin-portal",
+    "generate:portal": "nuxt generate app/portal",
+    "preview:portal": "nuxt preview app/portal",
     "lint": "eslint .",
-    "postinstall": "nuxt prepare .playground"
+    "postinstall:portal": "nuxt prepare app/portal",
+    "test": "pnpm run '/^test:.*/'"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
