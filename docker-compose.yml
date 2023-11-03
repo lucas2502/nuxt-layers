@@ -5,7 +5,9 @@ services:
     image: ${DOCKER_REGISTRY-}gwo-pmesp-front-end-portal
     build:
       context: .
-      dockerfile: portal.Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
     networks:
       - gwo-pmesp-network
 

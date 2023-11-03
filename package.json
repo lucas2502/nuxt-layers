@@ -7,6 +7,7 @@
     "dev:admin-portal": "nuxi dev app/admin-portal",
     "dev:portal": "nuxi dev app/portal",
     "build:portal": "nuxt build app/portal",
+    "build:admin-portal": "nuxt build app/admin-portal",
     "generate:admin-portal": "nuxt generate app/admin-portal",
     "generate:portal": "nuxt generate app/portal",
     "preview:portal": "nuxt preview app/portal",
