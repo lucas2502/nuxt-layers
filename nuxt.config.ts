@@ -4,7 +4,7 @@ import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 export default defineNuxtConfig({
   ssr: false,
 
-  // extends: ["./ui"],
+  extends: ["./ui"],
 
   build: {
     transpile: ["vuetify"],
